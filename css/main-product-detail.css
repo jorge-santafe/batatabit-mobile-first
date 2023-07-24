@@ -1,0 +1,46 @@
+.main-product-detail{
+    background: var(--warm-black);
+    position: relative;
+    padding-block-end: 2.875rem;
+}
+.batata{
+        display: block;
+        inline-size: 2.5625rem;
+        block-size: 1.5rem;
+        position: absolute;
+        top: -0.75rem;
+        left: calc(50% - 1.25rem);
+        background-image: url('../assets/img/batata.svg');
+}
+.product-detail--title{
+    text-align: center;
+    margin-block-end:2rem ;
+    padding-block-start: 4rem;
+}
+.product-detail--title h2{
+    color: var(--just-white);
+    font: var(--headline-1);
+}
+.product-card-container{
+    display: flex; 
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product-detail--card{
+    max-inline-size: 21.5625rem;
+    padding: 1rem;
+    background: var(--warm-black-plus);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.16)
+}
+.product-detail--card span{
+    font-size: 1.5rem;
+}
+.product-detail--card h3{
+    font: var(--headline-3);
+    color: var(--just-white);
+    margin-block: 0.625rem;
+}
+.product-detail--card p{
+    margin-block: 0 0.375rem;
+}
