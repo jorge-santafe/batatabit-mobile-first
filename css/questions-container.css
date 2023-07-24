@@ -1,0 +1,23 @@
+.questions-container{
+    margin-block-end: 4rem;
+}
+.questions-container h2{
+    font: var(--headline-1);
+    color: var(--warm-black);
+    text-align: center;
+    margin-block-end: 2rem;
+}
+.frequent-questions{
+   display: grid;
+   gap:1rem 1.5rem;
+   grid-template-columns: 1fr auto;
+   align-content: center;
+}
+.frequent-questions p{
+    margin: 0;
+}
+.frequent-questions .icon-arrow-down{
+    font-size: 1.5rem;
+    align-self: center;
+    color:var(--warm-black) ;
+}
