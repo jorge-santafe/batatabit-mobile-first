@@ -1,0 +1,19 @@
+footer{
+    padding-block: 2.5rem;
+    background:var(--bitcoin-orange);
+}
+.footer__container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer__contact{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.footer__contact a{
+    color: var(--just-white);
+}

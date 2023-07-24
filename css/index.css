@@ -1,6 +1,7 @@
 @import url('./icons.css');
 @import url('./header.css');
 @import url('./main.css');
+@import url('./footer.css');
 :root{
     /* Colors */
     --bitcoin-orange:#F7931A;
@@ -43,5 +44,4 @@ a{
     margin: 0 auto;
     padding-inline: 1rem;
     box-sizing: border-box;
-    outline: 1px solid red;
 }
